@@ -1,0 +1,259 @@
+.body{
+    background-color: #000000;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    color: #ffffff;
+    
+}
+
+.container {
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: (1000px, 100vw);
+    height: 100vh;
+    border-bottom: 50px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 90vw;
+   
+}
+    
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 20px 150px;
+    cursor: pointer;
+}
+
+.language-button {
+    position: absolute;
+    top: 30px;
+    right: 290px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #444444;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.singin-button {
+    position: absolute;
+    top: 30px;
+    right: 180px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-box {
+    Font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    margin: 100px auto;
+}
+
+.main-box h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 100px;
+}
+
+.main-box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-box p1 {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.email-input {
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #333333bd;
+    color: #ffffff;
+}
+
+.get-started-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.flex-box {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+
+.images{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.images:hover {
+    transform: scale3d(1.05, 1.05, 1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.rea h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+.reasons {
+    height: 200px;
+    width: 1450px;
+    color: #ffffff;
+    padding-left: 120px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.reason {
+    height: 200px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, rgb(23, 48, 119), rgb(70, 14, 12));
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.faqs h1 {
+    margin-top: 80px;
+}
+
+
+.faq-button {
+  background-color: #313131;
+  color: #ffffff;
+  cursor: pointer;
+  padding:  18px;
+  width: 80%;
+  margin-left: 150px;
+  text-align: left;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.active, .faq-button:hover {
+  background-color: #747474d0;
+}
+
+.faq-content {
+  font-size: 20px;
+  width: 1300px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #747272d8;
+  margin-left: 150px;
+  justify-content: center;
+}
+
+.faq-button:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+  justify-content: center;
+}
+
+.active:after {
+  content: "\274C"; /* Unicode character for "minus" sign (x) */
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.bottom-mail p {
+    font-size: 17px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.email-input-bottom {
+    display: inline-block;
+    width: 500px;
+    height: 22px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #333333bd;
+    color: #ffffff;
+}
+
+.get-started-button-bottom {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer p {
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px; 
+}
